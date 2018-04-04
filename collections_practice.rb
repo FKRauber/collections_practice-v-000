@@ -27,7 +27,10 @@ end
 
 
 def reverse_array(array)
-  array.sort!
+  array.sort { |a,b|
+    b <=> a
+  end
+  }
 end
 
 def kesha_maker(array)
