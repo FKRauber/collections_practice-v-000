@@ -38,7 +38,7 @@ end
 def add_s(array)
   array.each { |item|
     if item != array[1]
-      item + "s")
+      item + "s"
     end
   }
 end
