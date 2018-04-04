@@ -14,26 +14,17 @@ def sort_array_char_count(array)
   }
 end
 
-
-
-
-
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   array
 end
-
-
-
-
 
 def reverse_array(array)
   array.reverse
 end
 
 def kesha_maker(array)
-  new_array = Array.new
-  array.each { |item| new_array.push(item.each) }
+  array.each { |item| item[2] = $ }
 end
 
 def find_a(array)
